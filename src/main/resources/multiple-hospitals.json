@@ -1,0 +1,407 @@
+[
+	{
+		"hospitalId": null,
+		"hospitalName": "CityCare Hospital",
+		"hospitalType": "wc",
+		"city": "Chennai",
+		"doctors": [
+			{
+				"doctorId": null,
+				"doctorName": "Dr. Priya Raman",
+				"emailId": "priya.raman@citycare.com",
+				"experience": 12,
+				"fees": 600.0,
+				"specialityType": "Gynecology",
+				"availableSlots": [
+					"09:00",
+					"11:00",
+					"15:00",
+					"17:00"
+				],
+				"address": {
+					"addressId": null,
+					"location": "Anna Nagar",
+					"city": "Chennai",
+					"state": "Tamil Nadu"
+				}
+			},
+			{
+				"doctorId": null,
+				"doctorName": "Dr. Kavitha Menon",
+				"emailId": "kavitha.menon@citycare.com",
+				"experience": 10,
+				"fees": 550.0,
+				"specialityType": "Pediatrics",
+				"availableSlots": [
+					"10:00",
+					"12:30",
+					"16:00"
+				],
+				"address": {
+					"addressId": null,
+					"location": "T Nagar",
+					"city": "Chennai",
+					"state": "Tamil Nadu"
+				}
+			},
+			{
+				"doctorId": null,
+				"doctorName": "Dr. Rajesh Kumar",
+				"emailId": "rajesh.kumar@citycare.com",
+				"experience": 15,
+				"fees": 700.0,
+				"specialityType": "Orthopedics",
+				"availableSlots": [
+					"09:30",
+					"11:30",
+					"14:30"
+				],
+				"address": {
+					"addressId": null,
+					"location": "Velachery",
+					"city": "Chennai",
+					"state": "Tamil Nadu"
+				}
+			},
+			{
+				"doctorId": null,
+				"doctorName": "Dr. Sneha Narayan",
+				"emailId": "sneha.narayan@citycare.com",
+				"experience": 8,
+				"fees": 500.0,
+				"specialityType": "ENT",
+				"availableSlots": [
+					"10:15",
+					"12:45",
+					"17:15"
+				],
+				"address": {
+					"addressId": null,
+					"location": "Adyar",
+					"city": "Chennai",
+					"state": "Tamil Nadu"
+				}
+			},
+			{
+				"doctorId": null,
+				"doctorName": "Dr. Suresh Iyer",
+				"emailId": "suresh.iyer@citycare.com",
+				"experience": 20,
+				"fees": 800.0,
+				"specialityType": "Cardiology",
+				"availableSlots": [
+					"09:00",
+					"13:00",
+					"18:00"
+				],
+				"address": {
+					"addressId": null,
+					"location": "Besant Nagar",
+					"city": "Chennai",
+					"state": "Tamil Nadu"
+				}
+			},
+			{
+				"doctorId": null,
+				"doctorName": "Dr. Anitha Raj",
+				"emailId": "anitha.raj@citycare.com",
+				"experience": 9,
+				"fees": 550.0,
+				"specialityType": "Dermatology",
+				"availableSlots": [
+					"10:00",
+					"13:30",
+					"16:30"
+				],
+				"address": {
+					"addressId": null,
+					"location": "Nungambakkam",
+					"city": "Chennai",
+					"state": "Tamil Nadu"
+				}
+			},
+			{
+				"doctorId": null,
+				"doctorName": "Dr. Ramesh Babu",
+				"emailId": "ramesh.babu@citycare.com",
+				"experience": 14,
+				"fees": 650.0,
+				"specialityType": "Diabetology",
+				"availableSlots": [
+					"09:30",
+					"12:00",
+					"15:30"
+				],
+				"address": {
+					"addressId": null,
+					"location": "Perungudi",
+					"city": "Chennai",
+					"state": "Tamil Nadu"
+				}
+			},
+			{
+				"doctorId": null,
+				"doctorName": "Dr. Divya Chandran",
+				"emailId": "divya.chandran@citycare.com",
+				"experience": 6,
+				"fees": 500.0,
+				"specialityType": "Ophthalmology",
+				"availableSlots": [
+					"11:00",
+					"13:00",
+					"17:00"
+				],
+				"address": {
+					"addressId": null,
+					"location": "Guindy",
+					"city": "Chennai",
+					"state": "Tamil Nadu"
+				}
+			},
+			{
+				"doctorId": null,
+				"doctorName": "Dr. Manikandan R",
+				"emailId": "manikandan.r@citycare.com",
+				"experience": 11,
+				"fees": 600.0,
+				"specialityType": "General Medicine",
+				"availableSlots": [
+					"09:45",
+					"12:15",
+					"16:15"
+				],
+				"address": {
+					"addressId": null,
+					"location": "Kodambakkam",
+					"city": "Chennai",
+					"state": "Tamil Nadu"
+				}
+			},
+			{
+				"doctorId": null,
+				"doctorName": "Dr. Lakshmi Devi",
+				"emailId": "lakshmi.devi@citycare.com",
+				"experience": 7,
+				"fees": 500.0,
+				"specialityType": "Physiotherapy",
+				"availableSlots": [
+					"10:30",
+					"14:00",
+					"17:30"
+				],
+				"address": {
+					"addressId": null,
+					"location": "Saidapet",
+					"city": "Chennai",
+					"state": "Tamil Nadu"
+				}
+			}
+		]
+	},
+	{
+		"hospitalId": null,
+		"hospitalName": "Green Valley Hospital",
+		"hospitalType": "ortho",
+		"city": "Bangalore",
+		"doctors": [
+			{
+				"doctorId": null,
+				"doctorName": "Dr. Arjun Kumar",
+				"emailId": "arjun.kumar@greenvalley.com",
+				"experience": 10,
+				"fees": 500.0,
+				"specialityType": "Orthopedics",
+				"availableSlots": [
+					"09:00",
+					"11:00",
+					"14:00"
+				],
+				"address": {
+					"addressId": null,
+					"location": "MG Road",
+					"city": "Bangalore",
+					"state": "Karnataka"
+				}
+			},
+			{
+				"doctorId": null,
+				"doctorName": "Dr. Meera Iyer",
+				"emailId": "meera.iyer@greenvalley.com",
+				"experience": 8,
+				"fees": 450.0,
+				"specialityType": "Orthopedics",
+				"availableSlots": [
+					"10:00",
+					"13:00",
+					"16:00"
+				],
+				"address": {
+					"addressId": null,
+					"location": "Whitefield",
+					"city": "Bangalore",
+					"state": "Karnataka"
+				}
+			},
+			{
+				"doctorId": null,
+				"doctorName": "Dr. Rohan Das",
+				"emailId": "rohan.das@greenvalley.com",
+				"experience": 12,
+				"fees": 550.0,
+				"specialityType": "Orthopedics",
+				"availableSlots": [
+					"09:30",
+					"12:00",
+					"15:00"
+				],
+				"address": {
+					"addressId": null,
+					"location": "Koramangala",
+					"city": "Bangalore",
+					"state": "Karnataka"
+				}
+			},
+			{
+				"doctorId": null,
+				"doctorName": "Dr. Ananya Singh",
+				"emailId": "ananya.singh@greenvalley.com",
+				"experience": 6,
+				"fees": 400.0,
+				"specialityType": "Physiotherapy",
+				"availableSlots": [
+					"11:00",
+					"14:00",
+					"17:00"
+				],
+				"address": {
+					"addressId": null,
+					"location": "Indiranagar",
+					"city": "Bangalore",
+					"state": "Karnataka"
+				}
+			},
+			{
+				"doctorId": null,
+				"doctorName": "Dr. Vivek Sharma",
+				"emailId": "vivek.sharma@greenvalley.com",
+				"experience": 9,
+				"fees": 480.0,
+				"specialityType": "Rehabilitation",
+				"availableSlots": [
+					"10:30",
+					"13:30",
+					"16:30"
+				],
+				"address": {
+					"addressId": null,
+					"location": "Jayanagar",
+					"city": "Bangalore",
+					"state": "Karnataka"
+				}
+			}
+		]
+	},
+	{
+		"hospitalId": null,
+		"hospitalName": "Sunrise Children Hospital",
+		"hospitalType": "child",
+		"city": "Mumbai",
+		"doctors": [
+			{
+				"doctorId": null,
+				"doctorName": "Dr. Shweta Patil",
+				"emailId": "shweta.patil@sunrise.com",
+				"experience": 7,
+				"fees": 450.0,
+				"specialityType": "Pediatrics",
+				"availableSlots": [
+					"09:00",
+					"11:00",
+					"14:00"
+				],
+				"address": {
+					"addressId": null,
+					"location": "Bandra",
+					"city": "Mumbai",
+					"state": "Maharashtra"
+				}
+			},
+			{
+				"doctorId": null,
+				"doctorName": "Dr. Kiran Deshmukh",
+				"emailId": "kiran.deshmukh@sunrise.com",
+				"experience": 10,
+				"fees": 500.0,
+				"specialityType": "Pediatrics",
+				"availableSlots": [
+					"10:00",
+					"12:30",
+					"15:30"
+				],
+				"address": {
+					"addressId": null,
+					"location": "Andheri",
+					"city": "Mumbai",
+					"state": "Maharashtra"
+				}
+			},
+			{
+				"doctorId": null,
+				"doctorName": "Dr. Priya Kulkarni",
+				"emailId": "priya.kulkarni@sunrise.com",
+				"experience": 8,
+				"fees": 470.0,
+				"specialityType": "Neonatology",
+				"availableSlots": [
+					"09:30",
+					"12:00",
+					"14:30"
+				],
+				"address": {
+					"addressId": null,
+					"location": "Powai",
+					"city": "Mumbai",
+					"state": "Maharashtra"
+				}
+			},
+			{
+				"doctorId": null,
+				"doctorName": "Dr. Ramesh Nair",
+				"emailId": "ramesh.nair@sunrise.com",
+				"experience": 12,
+				"fees": 520.0,
+				"specialityType": "Pediatrics",
+				"availableSlots": [
+					"10:30",
+					"13:00",
+					"16:00"
+				],
+				"address": {
+					"addressId": null,
+					"location": "Vile Parle",
+					"city": "Mumbai",
+					"state": "Maharashtra"
+				}
+			},
+			{
+				"doctorId": null,
+				"doctorName": "Dr. Anjali Mehta",
+				"emailId": "anjali.mehta@sunrise.com",
+				"experience": 9,
+				"fees": 480.0,
+				"specialityType": "Child Surgery",
+				"availableSlots": [
+					"09:45",
+					"12:15",
+					"15:15"
+				],
+				"address": {
+					"addressId": null,
+					"location": "Malad",
+					"city": "Mumbai",
+					"state": "Maharashtra"
+				}
+			}
+		]
+	}
+]
