@@ -3,6 +3,7 @@ package com.doctorapp.service;
 import java.time.LocalTime;
 import java.util.List;
 
+import com.doctorapp.model.DoctorDetailDto;
 import com.doctorapp.model.DoctorDto;
 
 public interface IDoctorService {
@@ -12,4 +13,6 @@ public interface IDoctorService {
 	List<DoctorDto> getByDoctorSpecialityAndAvailability(String specialityType, LocalTime availablity);
 	
 	List<DoctorDto> getByDoctorSpecialityAndLocation(String specialityType, String city);
+	
+	List<DoctorDetailDto> getByDoctorDetail();
 }

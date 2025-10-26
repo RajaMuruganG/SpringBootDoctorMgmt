@@ -7,6 +7,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
 import com.doctorapp.model.Doctor;
+import com.doctorapp.model.DoctorDetailDto;
 import com.doctorapp.model.DoctorDto;
 
 public interface DoctorRepo extends JpaRepository<Doctor, Integer> {
@@ -16,5 +17,14 @@ public interface DoctorRepo extends JpaRepository<Doctor, Integer> {
 	
 	@Query("FROM Doctor d INNER JOIN d.address a WHERE d.specialityType = ?1 AND a.city = ?2")
 	List<Doctor> findByDoctorSpecialityAndLocation(String specialityType, String city);
+
+	
+	@Query("""
+			SELECT new com.doctorapp.model.DoctorDetailDto(d.doctorName, d.experience, d.fees, d.specialityType) 
+			from Doctor d
+			""")
+	List<DoctorDetailDto> findByAllDoctorDetail();
+	
+	
 	
 }

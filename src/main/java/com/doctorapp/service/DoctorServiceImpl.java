@@ -7,6 +7,7 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.doctorapp.model.DoctorDetailDto;
 import com.doctorapp.model.DoctorDto;
 import com.doctorapp.repo.DoctorRepo;
 
@@ -36,6 +37,11 @@ public class DoctorServiceImpl implements IDoctorService {
 		List<DoctorDto> doctorList = doctorRepo.findByDoctorSpecialityAndLocation(specialityType, city)
 				.stream().map(doctor -> mapper.map(doctor, DoctorDto.class)).toList();
 		return doctorList;
+	}
+
+	@Override
+	public List<DoctorDetailDto> getByDoctorDetail() {
+		return doctorRepo.findByAllDoctorDetail();
 	}
 
 }

@@ -79,7 +79,10 @@ public class SpringDatajpaDoctorMgmtOneToManyApplication implements CommandLineR
 		
 		System.out.println("----List of All Doctors By Speciality and availablity----");
 		doctorService.getByDoctorSpecialityAndLocation("Orthopedics","Chennai").forEach(System.out::println);
+
 		
+		System.out.println("----List of All Doctors----");
+		doctorService.getByDoctorDetail().forEach(System.out::println);
 	}
 
 }
